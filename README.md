@@ -2,7 +2,7 @@
 
 - **Proje Adı:** SQL Injection Açığına Sahip ve Güvenli Giriş Sistemi  
 - **Takım Üyesi:**  
-  - Zeynep Alkoç – 219XXXX031  
+  - Zeynep Alkoç – 2320191065 
 
 - **Açıklama:**  
   Bu proje, PHP tabanlı bir web uygulamasında sıkça rastlanan güvenlik açıklarından biri olan SQL Injection zafiyetini uygulamalı olarak incelemektedir. Proje kapsamında iki ayrı kullanıcı giriş sistemi geliştirilmiştir: biri SQL Injection'a açık bir yapı sunarken, diğeri bu zafiyeti gidermek amacıyla PDO ve prepared statements kullanılarak güvenli hale getirilmiştir. Amaç, web güvenliğinin temel prensiplerini kavramak ve geliştiricilerin bu tür açıkları tanıyıp önlem alabilmesini sağlamaktır.
