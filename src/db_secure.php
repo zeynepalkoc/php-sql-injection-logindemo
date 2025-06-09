@@ -1,3 +1,13 @@
+require_once 'logger.php';
+if ($stmt->rowCount() > 0) {
+    logAttempt($username, 'Başarılı');
+    header("Location: dashboard.php");
+    exit;
+} else {
+    logAttempt($username, 'Başarısız');
+    $message = "❌ Giriş başarısız.";
+}
+
 <?php
 require_once 'db_secure.php';
 

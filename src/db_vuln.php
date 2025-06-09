@@ -1,13 +1,6 @@
 <?php
-// SQL Injection'a açık mysqli bağlantısı
-$host = 'localhost';
-$user = 'root';
-$pass = '';
-$db   = 'sql_injection_demo';
-
-$conn = new mysqli($host, $user, $pass, $db);
-
+$conn = new mysqli("localhost", "root", "", "sql_injection_demo");
 if ($conn->connect_error) {
-    die("Bağlantı hatası: " . $conn->connect_error);
+    die("Veritabanı bağlantı hatası: " . $conn->connect_error);
 }
 ?>
